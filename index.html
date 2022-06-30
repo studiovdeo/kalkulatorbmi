@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator BMI</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Kalkulator BMI
+        </h1>
+    </header>
+    <main>
+            <h2>
+                <div id="bar">
+                    <p>Kalkulator BMI online - Oblicz wskaźnik masy ciała</p>
+                </div>
+            </h2>
+            <div id="box">
+                <form oninput="wynik.value=10000 * waga.value/(wzrost.value * wzrost.value)">
+                    <input type="number"  name="waga"autofocus placeholder="Podaj swoją wagę">
+                    <input type="number" name="wzrost"placeholder="Podaj swój wzrost"><br><br>
+
+                    Twoje <strong>BMI</strong> wynosi:
+                    <output id="wynik">0</output>
+                </div>
+                </form>
+
+            <div id="tabelabmi">
+                    <p>Sprawdź swój wynik w tabeli poniżej!</p>
+                    <img src="assets/img/tabela.jpg" alt="">
+            </div>
+            <div id="opis">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, distinctio eos esse quam repellat minima laudantium tenetur alias. Exercitationem dolor placeat voluptate repellendus porro eius totam dicta rem autem, quidem ab quisquam sit illo. Ducimus sapiente, accusantium necessitatibus, minima harum fuga saepe quas aut eum maiores, ex accusamus earum perferendis!
+            </div>
+    </main>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

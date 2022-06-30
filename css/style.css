@@ -1,0 +1,74 @@
+body {
+
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   background: url(../assets/img/bg.jpg) center/cover fixed;
+}
+
+
+header {
+
+    display: flex;
+    height:80px;
+    text-align: center;
+    justify-content: left;
+    padding: 10px;
+
+}
+
+#bar {
+    font-size: 50px;
+}
+
+h2 {
+
+    background-color: rgb(245, 245, 239);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#box {
+
+    margin: auto;
+    display: flex;
+    width: 40vh;
+    background-color: beige;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#wynik {
+    font-size: 30px;
+
+}
+
+#tabelabmi {
+
+    margin: auto;
+    width: 100vh;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: beige;
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+#opis {
+
+    margin: auto;
+    width: 100vh;
+    padding: 20px;
+    font-size: 25px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
